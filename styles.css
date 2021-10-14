@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero-section {
+    background-image: url(images/backdrop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+
+.female-hero {
+    background-image: url(images/femalehereo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 65vh;
+}
+
+
+.select-section .container p {
+    font-size: 6rem;
+}
+
+.about-image {
+    background-image: url(images/aboutus.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.male-fashion {
+    background-image: url(images/male\ fashion.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    
+}
+
+.female-fashion {
+    background-image: url(images/female\ fashion.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+}
+
+.baby-fashion {
+    background-image: url(images/baby\ fashion.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+
+}
+
+
+@media screen and (max-width: 428px) {
+    .female-hero {
+        display: none;
+    }
+
+    .male-fashion {
+         
+    }
+}
+    
+}
